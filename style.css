@@ -117,9 +117,6 @@ header
   opacity: .8;
 }
 
-/*--------------------------------
- メインビジュアル
----------------------------------*/
 .main-visual-img {
   height: 100vh;
   background-image: url(../portfolio/img/kozakai_meishi.png);
@@ -129,9 +126,7 @@ header
 }
 
 
-/*--------------------------------
- プロフィール
----------------------------------*/
+/*-- プロフィール --*/
 .profile {
   padding: 50px 0;
 }
@@ -154,9 +149,7 @@ header
   margin-left: 20em;
 }
 
-/*--------------------------------
- Works
----------------------------------*/
+/*-- Works --*/
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -224,43 +217,7 @@ header
   margin-bottom: 3px;
 }
 
-/*--------------------------------
- Contact
----------------------------------*/
-.contact-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.contact-item {
-  display: block;
-  margin: 0 20px;
-  text-align: center;
-}
-
-.contact-text {
-  margin-top: 10px;
-  text-align: center;
-}
-/*--------------------------------
- ページトップ
----------------------------------*/
-.page-top {
-  font-weight: bold;
-  padding: 10px;
-  cursor: pointer;
-  text-align: center;
-  background-color: #d8d8d8;
-}
-
-.page-top .material-icons-outlined {
-  vertical-align: bottom;
-}
-
-/*--------------------------------
- フッター
----------------------------------*/
+/*-- footer --*/
 .footer {
   padding: 30px;
   background-color: #327A90
@@ -272,9 +229,6 @@ header
   color: #d8d8d8;;
 }
 
-/*--------------------------------
- 下層：Worksページ
----------------------------------*/
 .article {
   padding: 50px 0;
 }
@@ -315,21 +269,6 @@ header
   text-align: center;;
 }
 
-/*media Queries 767
-----------------------------------------------------*/
-@media screen and (max-width: 767px) {
-  body {
-    font-size: 13px;
-    line-height: 1.7;
-  }
-
-  .pc-only {
-    display: none;
-  }
-
-  .sp-only {
-    display: block;
-  }
 
   /* 見出し */
   .title {
@@ -369,9 +308,6 @@ header
   .profile {
     padding: 30px 0;
   }
-  .profile-title {
-    font-size: 20px;
-  }
 
   /* Works */
   .works-name {
@@ -388,28 +324,12 @@ header
     margin-bottom: 30px;
   }
 
-  /* Skill */
-  .skill-list {
-    display: block;
-    margin-bottom: 0;
-  }
-
-  .skill-item {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-
-  .skill-item:last-child {
-    margin-bottom: 0;
-  }
-
-  /* Contact */
-  .contact-item {
-    margin: 0 10px;
-  }
-
   /* フッター */
   .footer {
     padding: 20px 0;
   }
+
+/* form */
+.form{
+  padding-left: 50%;
 }
